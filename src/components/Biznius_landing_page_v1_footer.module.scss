@@ -1,0 +1,131 @@
+@use "utils" as *;
+@use "global" as *;
+
+$color_type_0: rgb(0, 0, 0);
+$color_type_1: rgb(255, 255, 255);
+$color_type_2: rgb(9, 17, 51);
+
+$bg_color_type_0: rgb(226, 109, 56);
+
+$border_radius_type_0: 5px 5px 5px 5px;
+
+$font_type_0: 700 48px/1.37 "Roboto", Helvetica, Arial, serif;
+$font_type_1: 700 22px/1.45 "Roboto", Helvetica, Arial, serif;
+$font_type_2: 400 20px/1.5 "Roboto", Helvetica, Arial, serif;
+$font_type_3: 700 1em/1.37 "Roboto", Helvetica, Arial, serif;
+
+.footer {
+  @include flex-column;
+  position: relative;
+  flex-grow: 1;
+}
+.content_box6 {
+  @include xs {
+    margin: 0px;
+  }
+  @include flex-column;
+  background-color: $bg_color_type_0;
+  position: relative;
+  flex-grow: 1;
+  margin: 64px 0px 0px;
+}
+.flex_col {
+  @include sm {
+    min-width: 320px;
+  }
+  @include xs {
+    margin: 59px auto 9px;
+  }
+  @include xxs {
+    margin: 31px auto 9px;
+  }
+  @include flex-column;
+  width: 37.2%;
+  position: relative;
+  flex-grow: 1;
+  min-width: 539px;
+  margin: 132px auto 9px;
+}
+.flex_col__cell {
+  @include flex-column;
+  position: relative;
+}
+.hero_title6 {
+  font: $font_type_0;
+  color: $color_type_0;
+  text-align: center;
+  letter-spacing: 1px;
+  @include md {
+    font-size: 36px;
+    text-align: center;
+  }
+  @include sm {
+    font-size: 32px;
+  }
+  @include xs {
+    font-size: 24px;
+  }
+}
+.hero_title6_box {
+  @include md {
+    align-items: flex-start;
+  }
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-grow: 1;
+}
+.hero_title6_span0 {
+  font: $font_type_3;
+  color: $color_type_1;
+}
+.hero_title6_span1 {
+  font: $font_type_3;
+  color: $color_type_2;
+}
+.hero_title6_span2 {
+  font: $font_type_3;
+}
+.box {
+  @include flex-column;
+  border-radius: $border_radius_type_0;
+  outline: 2.5px solid rgb(255, 255, 255);
+  outline-offset: -2.5px;
+  width: 36.73%;
+  cursor: pointer;
+  position: relative;
+  flex-grow: 1;
+  margin: 28px auto 0px;
+}
+.subtitle3 {
+  @include md {
+    font-size: 16px;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: $font_type_1;
+  color: $color_type_1;
+  text-align: center;
+  letter-spacing: 0px;
+  position: relative;
+  flex-grow: 1;
+  margin: 7px 0px 6px;
+}
+.subtitle {
+  @include xs {
+    margin: 48px 0px 0px;
+  }
+  @include xxs {
+    margin: 27px 0px 0px;
+  }
+  display: flex;
+  justify-content: center;
+  font: $font_type_2;
+  color: $color_type_1;
+  text-align: center;
+  letter-spacing: 0px;
+  position: relative;
+  flex-grow: 1;
+  margin: 89px 0px 0px;
+}

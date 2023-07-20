@@ -1,0 +1,209 @@
+@use "utils" as *;
+@use "global" as *;
+
+$color_type_0: rgb(155, 155, 155);
+$color_type_1: rgb(226, 109, 56);
+$color_type_2: rgb(69, 65, 60);
+
+$font_type_0: 500 48px/1 "Roboto", Helvetica, Arial, serif;
+$font_type_1: 500 36px/1.5 "Roboto", Helvetica, Arial, serif;
+$font_type_2: 400 20px/1.5 "Roboto", Helvetica, Arial, serif;
+
+.section4 {
+  @include xxs {
+    margin: 81px 0px 0px;
+  }
+  @include flex-column;
+  position: relative;
+  flex-grow: 1;
+}
+.flex_col {
+  @include xs {
+    margin: 76px auto 111px;
+  }
+  @include xxs {
+    margin: 25px auto 2px;
+  }
+  @include flex-column;
+  width: 73.06%;
+  position: relative;
+  flex-grow: 1;
+  margin: 156px auto 111px;
+}
+.flex_col__cell {
+  @include flex-column;
+  position: relative;
+}
+.hero_title4 {
+  @include mq-between(xxl, max) {
+    text-align: center;
+    justify-content: center;
+  }
+  @include xs {
+    font-size: 24px;
+    text-align: left;
+  }
+  display: flex;
+  @include font-face($font_type_0, $color_type_1, 0px);
+  position: relative;
+  flex-grow: 1;
+}
+.flex_row {
+  @include lg {
+    margin: 35px 0px 0px;
+  }
+  @include sm {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    row-gap: 16px;
+  }
+  @include xxs {
+    margin: 29px 0px 0px;
+  }
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  flex-grow: 1;
+  margin: 59px 0px 0px;
+}
+.flex_row__cell {
+  @include sm {
+    flex: 0 0 calc(1 / 1 * 100% - 0px / 1);
+    min-width: unset;
+  }
+  @include flex-column;
+  position: relative;
+  flex: 0 1 370px;
+}
+.image3 {
+  width: calc(100% - 0px);
+  height: auto;
+  aspect-ratio: 1.8;
+  vertical-align: top;
+  object-fit: cover;
+  object-position: center center;
+  position: relative;
+}
+.flex_row__spacer {
+  @include sm {
+    display: none;
+  }
+  @include flex-column;
+  position: relative;
+  flex: 0 1 100px;
+}
+.flex_row__cell1 {
+  @include sm {
+    flex: 0 0 calc(1 / 1 * 100% - 0px / 1);
+    min-width: unset;
+  }
+  @include flex-column;
+  position: relative;
+  flex: 1 1 532px;
+}
+.flex_col1 {
+  @include flex-column;
+  row-gap: 6px;
+  position: relative;
+  flex-grow: 1;
+  margin: 27px 0px;
+}
+.flex_col1__cell {
+  @include flex-column;
+  position: relative;
+}
+.big_title1 {
+  @include xs {
+    font-size: 20px;
+    text-align: left;
+  }
+  @include font-face($font_type_1, $color_type_2, 0px);
+  position: relative;
+  flex-grow: 1;
+}
+.subtitle4 {
+  @include font-face($font_type_2, $color_type_0, 0px);
+  position: relative;
+  flex-grow: 1;
+}
+.flex_row1 {
+  @include lg {
+    margin: 1px 0px 0px;
+  }
+  @include sm {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    row-gap: 16px;
+    margin: 69px 0px 0px;
+  }
+  @include xs {
+    margin: 48px 0px 0px;
+  }
+  @include xxs {
+    margin: 0px;
+  }
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+  margin: 137px 0px 0px;
+}
+.flex_row1__cell {
+  @include sm {
+    flex: 0 0 calc(1 / 1 * 100% - 0px / 1);
+    order: 3;
+    min-width: unset;
+  }
+  @include flex-column;
+  position: relative;
+  flex: 1 1 532px;
+}
+.flex_col2 {
+  @include flex-column;
+  row-gap: 6px;
+  position: relative;
+  flex-grow: 1;
+  margin: 1px 0px 0px;
+}
+.flex_col2__cell {
+  @include flex-column;
+  position: relative;
+}
+.subtitle41 {
+  @include xxs {
+    margin: 0px 0px 40px;
+  }
+  @include font-face($font_type_2, $color_type_0, 0px);
+  position: relative;
+  flex-grow: 1;
+}
+.flex_row1__spacer {
+  @include sm {
+    display: none;
+  }
+  @include flex-column;
+  position: relative;
+  flex: 0 1 86px;
+}
+.flex_row1__cell1 {
+  @include sm {
+    flex: 0 0 calc(1 / 1 * 100% - 0px / 1);
+    order: 1;
+    min-width: unset;
+  }
+  @include flex-column;
+  position: relative;
+  flex: 0 1 370px;
+}
+.image2 {
+  width: calc(100% - 0px);
+  height: auto;
+  aspect-ratio: 2.02;
+  vertical-align: top;
+  object-fit: cover;
+  object-position: center center;
+  position: relative;
+}

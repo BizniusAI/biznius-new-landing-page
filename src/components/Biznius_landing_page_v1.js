@@ -1,19 +1,19 @@
-import React from 'react';
-import cn from 'classnames';
+import React from "react";
+import cn from "classnames";
 
-import section1Styles from './Biznius_landing_page_v1_section1.module.scss';
-import section2Styles from './Biznius_landing_page_v1_section2.module.scss';
-import section3Styles from './Biznius_landing_page_v1_section3.module.scss';
-import section4Styles from './Biznius_landing_page_v1_section4.module.scss';
-import footerStyles from './Biznius_landing_page_v1_footer.module.scss';
-import styles from './Biznius_landing_page_v1.module.scss';
+import section1Styles from "./Biznius_landing_page_v1_section1.module.scss";
+import section2Styles from "./Biznius_landing_page_v1_section2.module.scss";
+import section3Styles from "./Biznius_landing_page_v1_section3.module.scss";
+import section4Styles from "./Biznius_landing_page_v1_section4.module.scss";
+import footerStyles from "./Biznius_landing_page_v1_footer.module.scss";
+import styles from "./Biznius_landing_page_v1.module.scss";
 
 function renderSection1(props) {
   return (
     <section className={section1Styles.section1}>
       <div className={section1Styles.rect1} />
       <img
-        src={require('assets/b20084f80668eb149495c8d71ec2b9bf.png')}
+        src={require("assets/b20084f80668eb149495c8d71ec2b9bf.png")}
         alt="alt text"
         className={section1Styles.decorator}
       />
@@ -25,26 +25,30 @@ function renderSection1(props) {
             x="0px 539fr 0fr"
             y="0px 377fr 0px"
             xl-x="0px 539fr 0fr"
-            xl-y="0px 377fr 0px">
+            xl-y="0px 377fr 0px"
+          >
             <div className={section1Styles.flex_col}>
               <div className={section1Styles.flex_col__cell}>
-                <h1 className={section1Styles.hero_title}>Maximize the insight from your visitors</h1>
+                <h1 className={section1Styles.hero_title}>
+                  Maximize the insight from your visitors
+                </h1>
               </div>
               <div className={section1Styles.flex_col__cell}>
                 <h3 className={section1Styles.subtitle}>
-                  Experience Biznius.ai, an easy to embed chatbot that brings human-like interactions to your website.
-                  Yet, we go beyond; we turn your customer conversations into potent strategies for growth.
+                  Experience Biznius.ai, an easy to embed chatbot that brings
+                  human-like interactions to your website.
                 </h3>
               </div>
               <div className={section1Styles.flex_col__cell}>
                 <div
                   onClick={() =>
                     window.open(
-                      'https://docs.google.com/forms/d/e/1FAIpQLSdyqzzGMS8i2moJKZVDhEcyUtGIhVpn_5eXg03S0jkFEMKXlA/viewform?usp=sf_link',
-                      '_blank'
+                      "https://docs.google.com/forms/d/e/1FAIpQLSdyqzzGMS8i2moJKZVDhEcyUtGIhVpn_5eXg03S0jkFEMKXlA/viewform?usp=sf_link",
+                      "_blank"
                     )
                   }
-                  className={section1Styles.box}>
+                  className={section1Styles.box}
+                >
                   <h3 className={section1Styles.subtitle3}>Sign Up</h3>
                 </div>
               </div>
@@ -54,7 +58,7 @@ function renderSection1(props) {
         <div className={section1Styles.flex_row__spacer} />
         <div className={section1Styles.flex_row__cell1}>
           <img
-            src={require('assets/2377193c86d180747e482fd5e81b8892.png')}
+            src={require("assets/2377193c86d180747e482fd5e81b8892.png")}
             alt="alt text"
             className={section1Styles.image}
           />
@@ -62,7 +66,7 @@ function renderSection1(props) {
       </div>
 
       <img
-        src={require('assets/290a1d0f4bbf2b731cbb2e6926d2c8c9.png')}
+        src={require("assets/290a1d0f4bbf2b731cbb2e6926d2c8c9.png")}
         alt="alt text"
         className={section1Styles.image1}
       />
@@ -75,29 +79,26 @@ function renderSection2(props) {
     <section className={section2Styles.section2}>
       <div className={section2Styles.flex_col}>
         <div className={section2Styles.flex_col__cell}>
-          <h1 className={section2Styles.hero_title2}>Pricing Plan</h1>
+          <h1 className={section2Styles.hero_title2}>
+            Join Our Beta Testing Phase – We're Looking for 10 Participants to
+            Exchange $100 Worth of Services for Free!
+          </h1>
         </div>
         <div className={section2Styles.flex_col__cell}>
-          <div
-            style={{ '--src': `url(${require('assets/000d1039e113067bcda711d6b8e63c56.png')})` }}
-            className={section2Styles.content_box}>
-            <div className={section2Styles.content_box1}>
-              <h3 className={section2Styles.subtitle1}>Limited-Time Offer</h3>
-            </div>
-
-            <div className={section2Styles.flex_col1}>
-              <div className={section2Styles.flex_col1__cell}>
-                <h1 className={section2Styles.hero_title1}>Free!</h1>
-              </div>
-              <div className={section2Styles.flex_col1__cell}>
-                <h1 className={section2Styles.big_title_box}>
-                  <span className={section2Styles.big_title}>
-                    <span className={section2Styles.big_title_span0}>$49</span>
-                    <span className={section2Styles.big_title_span1}> </span>
-                    <span className={section2Styles.big_title_span2}>/month</span>
-                  </span>
-                </h1>
-              </div>
+          <div className={footerStyles.flex_col__cell}>
+            <div
+              onClick={() =>
+                window.open(
+                  "https://docs.google.com/forms/d/e/1FAIpQLSdyqzzGMS8i2moJKZVDhEcyUtGIhVpn_5eXg03S0jkFEMKXlA/viewform?usp=sf_link",
+                  "_blank"
+                )
+              }
+              className={footerStyles.box}
+              style={{
+                backgroundColor: "#E26D38",
+              }}
+            >
+              <h3 className={footerStyles.subtitle3}>Sign Up</h3>
             </div>
           </div>
         </div>
@@ -110,13 +111,19 @@ function renderSection3(props) {
   return (
     <section className={section3Styles.section3}>
       <div
-        style={{ '--src': `url(${require('assets/59f9360f724b8422ae1a1498932fe079.svg').default})` }}
+        style={{
+          "--src": `url(${
+            require("assets/59f9360f724b8422ae1a1498932fe079.svg").default
+          })`,
+        }}
         className={section3Styles.decorator1}
       />
 
       <div className={section3Styles.flex_col}>
         <div className={section3Styles.flex_col__cell}>
-          <h1 className={section3Styles.hero_title3}>Start using effortlessly </h1>
+          <h1 className={section3Styles.hero_title3}>
+            For Our Participants, We Will...{" "}
+          </h1>
         </div>
         <div className={section3Styles.flex_col__cell1}>
           <div className={section3Styles.flex_row}>
@@ -124,11 +131,14 @@ function renderSection3(props) {
               <div className={section3Styles.content_box2}>
                 <div className={section3Styles.flex_col1}>
                   <div className={section3Styles.flex_col1__cell}>
-                    <h3 className={section3Styles.subtitle2}>Add your domain</h3>
+                    <h3 className={section3Styles.subtitle2}>
+                      Understand Problem
+                    </h3>
                   </div>
                   <div className={section3Styles.flex_col1__cell}>
                     <h4 className={section3Styles.highlights}>
-                      We will automatically crawl and extract all the valuable information from your website.
+                      We'll engage in in-depth conversations to gain a deep
+                      understanding of your problem
                     </h4>
                   </div>
                 </div>
@@ -141,13 +151,15 @@ function renderSection3(props) {
               <div className={section3Styles.content_box2}>
                 <div className={section3Styles.flex_col2}>
                   <div className={section3Styles.flex_col2__cell}>
-                    <h3 className={section3Styles.subtitle21}>
-                      Embed the chatbot <br />
+                    <h3 className={section3Styles.subtitle2}>
+                      Solve Your Needs
+                      <br />
                     </h3>
                   </div>
                   <div className={section3Styles.flex_col2__cell}>
                     <h4 className={section3Styles.highlights1}>
-                      Onto your website effortlessly to enable its powerful capabilities.
+                      We'll create a custom chatbot tailored to address your
+                      specific needs
                     </h4>
                   </div>
                 </div>
@@ -159,13 +171,17 @@ function renderSection3(props) {
             <div className={section3Styles.flex_row__cell}>
               <div className={section3Styles.content_box4}>
                 <h1 className={section3Styles.hero_title52}>3</h1>
-
                 <div className={section3Styles.flex_col3}>
                   <div className={section3Styles.flex_col3__cell}>
-                    <h3 className={section3Styles.subtitle2}>Customers indulge</h3>
+                    <h3 className={section3Styles.subtitle2}>
+                      Let You Try it Out
+                    </h3>
                   </div>
                   <div className={section3Styles.flex_col3__cell}>
-                    <h4 className={section3Styles.highlights}>In the seamless experience of our human-like chatbot.</h4>
+                    <h4 className={section3Styles.highlights}>
+                      You will receive the chatbot and have the opportunity to
+                      use and test it yourself
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -175,10 +191,15 @@ function renderSection3(props) {
               <div className={section3Styles.content_box4}>
                 <div className={section3Styles.flex_col3}>
                   <div className={section3Styles.flex_col3__cell1}>
-                    <h3 className={section3Styles.subtitle2}>Receive reports</h3>
+                    <h3 className={section3Styles.subtitle2}>
+                      List to Your Feedback
+                    </h3>
                   </div>
                   <div className={section3Styles.flex_col3__cell1}>
-                    <h4 className={section3Styles.highlights}>Provide insights based on all the conversations</h4>
+                    <h4 className={section3Styles.highlights}>
+                      Please let us know about any suggestions or improvements
+                      we can make
+                    </h4>
                   </div>
                 </div>
 
@@ -197,13 +218,15 @@ function renderSection4(props) {
     <section className={section4Styles.section4}>
       <div className={section4Styles.flex_col}>
         <div className={section4Styles.flex_col__cell}>
-          <h1 className={section4Styles.hero_title4}>{`What's included?`}</h1>
+          <h1
+            className={section4Styles.hero_title4}
+          >{`Why Invest Your Time With Us?`}</h1>
         </div>
         <div className={section4Styles.flex_col__cell}>
           <div className={section4Styles.flex_row}>
             <div className={section4Styles.flex_row__cell}>
               <img
-                src={require('assets/16917837de2f61f5df3b8571a0c5547e.png')}
+                src={require("assets/16917837de2f61f5df3b8571a0c5547e.png")}
                 alt="alt text"
                 className={section4Styles.image3}
               />
@@ -212,13 +235,14 @@ function renderSection4(props) {
             <div className={section4Styles.flex_row__cell1}>
               <div className={section4Styles.flex_col1}>
                 <div className={section4Styles.flex_col1__cell}>
-                  <h1 className={section4Styles.big_title1}>Advanced Pre-sales Chatbot</h1>
+                  <h1 className={section4Styles.big_title1}>
+                    Tailored Chatbot Experience
+                  </h1>
                 </div>
                 <div className={section4Styles.flex_col1__cell}>
                   <h3
-                    className={
-                      section4Styles.subtitle4
-                    }>{`Transform your website's visitor experience with our human-like presales chatbot. Watch as it intuitively guides your visitors, answering their queries, and helping them find what they're looking for.`}</h3>
+                    className={section4Styles.subtitle4}
+                  >{`Our commitment goes beyond just providing a chatbot. We invest our time to ensure it truly reflects your brand. We tune the AI to match your specific requirements, tone, and company's style, delivering tailored responses, not generic ones.`}</h3>
                 </div>
               </div>
             </div>
@@ -229,20 +253,21 @@ function renderSection4(props) {
             <div className={section4Styles.flex_row1__cell}>
               <div className={section4Styles.flex_col2}>
                 <div className={section4Styles.flex_col2__cell}>
-                  <h1 className={section4Styles.big_title1}>Bi-Weekly Business Reports</h1>
+                  <h1 className={section4Styles.big_title1}>
+                    Exclusive Offer for Our Beta Testers
+                  </h1>
                 </div>
                 <div className={section4Styles.flex_col2__cell}>
                   <h3
-                    className={
-                      section4Styles.subtitle41
-                    }>{`Get insights like never before with our bi-weekly business reports. Leveraging advanced Machine Learning models, we'll deep-dive into your customer interactions data, providing you with actionable insights and valuable understanding of your customers' needs and preferences.`}</h3>
+                    className={section4Styles.subtitle41}
+                  >{`As a token of our appreciation for being a valued beta tester, you'll receive your chatbot for free once our testing phase concludes. It's our way of saying thank you for your invaluable feedback and support.`}</h3>
                 </div>
               </div>
             </div>
             <div className={section4Styles.flex_row1__spacer} />
             <div className={section4Styles.flex_row1__cell1}>
               <img
-                src={require('assets/06930ad3b7339c4732f919e1f4e3e062.png')}
+                src={require("assets/06930ad3b7339c4732f919e1f4e3e062.png")}
                 alt="alt text"
                 className={section4Styles.image2}
               />
@@ -262,9 +287,9 @@ function renderFooter(props) {
           <div className={footerStyles.flex_col__cell}>
             <h1 className={footerStyles.hero_title6_box}>
               <span className={footerStyles.hero_title6}>
-                <span className={footerStyles.hero_title6_span0}>Sign up</span>
-                <span className={footerStyles.hero_title6_span1}> </span>
-                <span className={footerStyles.hero_title6_span2}>now</span>
+                <span className={footerStyles.hero_title6_span0}>
+                  Sign up now
+                </span>
               </span>
             </h1>
           </div>
@@ -272,16 +297,19 @@ function renderFooter(props) {
             <div
               onClick={() =>
                 window.open(
-                  'https://docs.google.com/forms/d/e/1FAIpQLSdyqzzGMS8i2moJKZVDhEcyUtGIhVpn_5eXg03S0jkFEMKXlA/viewform?usp=sf_link',
-                  '_blank'
+                  "https://docs.google.com/forms/d/e/1FAIpQLSdyqzzGMS8i2moJKZVDhEcyUtGIhVpn_5eXg03S0jkFEMKXlA/viewform?usp=sf_link",
+                  "_blank"
                 )
               }
-              className={footerStyles.box}>
+              className={footerStyles.box}
+            >
               <h3 className={footerStyles.subtitle3}>Sign Up</h3>
             </div>
           </div>
           <div className={footerStyles.flex_col__cell}>
-            <h3 className={footerStyles.subtitle}>Biznius.ai © Copyright 2023. All Rights Reserved.</h3>
+            <h3 className={footerStyles.subtitle}>
+              Biznius.ai © Copyright 2023. All Rights Reserved.
+            </h3>
           </div>
         </div>
       </div>
@@ -291,7 +319,7 @@ function renderFooter(props) {
 
 function Biznius_landing_page_v1(props) {
   return (
-    <main className={cn(styles.main, 'biznius-landing-page-v1')}>
+    <main className={cn(styles.main, "biznius-landing-page-v1")}>
       <div className={styles.main__cell}>{renderSection1(props)}</div>
       <div className={styles.main__cell}>{renderSection2(props)}</div>
       <div className={styles.main__cell}>{renderSection3(props)}</div>

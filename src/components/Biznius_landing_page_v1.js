@@ -77,7 +77,7 @@ function renderSection1(props) {
 function renderSection2(props) {
   return (
     <section className={section2Styles.section2}>
-      <div className={section2Styles.flex_col}>
+      <div className={section2Styles.flex_col}  style={{ width: '80%' }}>
         <div className={section2Styles.flex_col__cell}>
           <h1 className={section2Styles.hero_title2}>
             Join Our Beta Testing Phase – We're Looking for 10 Participants to

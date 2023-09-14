@@ -43,7 +43,7 @@ function renderSection1(props) {
                 <div
                   onClick={() =>
                     window.open(
-                      "https://docs.google.com/forms/d/e/1FAIpQLSdyqzzGMS8i2moJKZVDhEcyUtGIhVpn_5eXg03S0jkFEMKXlA/viewform?usp=sf_link",
+                      "https://forms.office.com/pages/responsepage.aspx?id=CkJzy5glbEiCB7BzkDBhdur_XrILu4xDlaQj8xHonOVUQUdVUVpTWjhDMThFVVhWUjhSVlE0Tjk5Sy4u",
                       "_blank"
                     )
                   }
@@ -89,7 +89,7 @@ function renderSection2(props) {
             <div
               onClick={() =>
                 window.open(
-                  "https://docs.google.com/forms/d/e/1FAIpQLSdyqzzGMS8i2moJKZVDhEcyUtGIhVpn_5eXg03S0jkFEMKXlA/viewform?usp=sf_link",
+                  "https://forms.office.com/pages/responsepage.aspx?id=CkJzy5glbEiCB7BzkDBhdur_XrILu4xDlaQj8xHonOVUQUdVUVpTWjhDMThFVVhWUjhSVlE0Tjk5Sy4u",
                   "_blank"
                 )
               }
@@ -297,7 +297,7 @@ function renderFooter(props) {
             <div
               onClick={() =>
                 window.open(
-                  "https://docs.google.com/forms/d/e/1FAIpQLSdyqzzGMS8i2moJKZVDhEcyUtGIhVpn_5eXg03S0jkFEMKXlA/viewform?usp=sf_link",
+                  "https://forms.office.com/pages/responsepage.aspx?id=CkJzy5glbEiCB7BzkDBhdur_XrILu4xDlaQj8xHonOVUQUdVUVpTWjhDMThFVVhWUjhSVlE0Tjk5Sy4u",
                   "_blank"
                 )
               }

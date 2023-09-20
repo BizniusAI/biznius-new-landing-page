@@ -80,7 +80,7 @@ function renderSection2(props) {
       <div className={section2Styles.flex_col}  style={{ width: '80%' }}>
         <div className={section2Styles.flex_col__cell}>
           <h1 className={section2Styles.hero_title2}>
-            Join Our Beta Testing Phase – We're Looking for 10 Participants to
+            Join Our Testing Program – We're Looking for 10 Participants to
             Exchange $100 Worth of Services for Free!
           </h1>
         </div>
@@ -254,13 +254,13 @@ function renderSection4(props) {
               <div className={section4Styles.flex_col2}>
                 <div className={section4Styles.flex_col2__cell}>
                   <h1 className={section4Styles.big_title1}>
-                    Exclusive Offer for Our Beta Testers
+                    Exclusive Offer for Our Testers
                   </h1>
                 </div>
                 <div className={section4Styles.flex_col2__cell}>
                   <h3
                     className={section4Styles.subtitle41}
-                  >{`As a token of our appreciation for being a valued beta tester, you'll receive your chatbot for free once our testing phase concludes. It's our way of saying thank you for your invaluable feedback and support.`}</h3>
+                  >{`As a token of our appreciation for being a valued tester, you'll receive your chatbot for free once our testing phase concludes. It's our way of saying thank you for your invaluable feedback and support.`}</h3>
                 </div>
               </div>
             </div>

@@ -3,7 +3,6 @@ import Router from 'next/router';
 import { initGA, logPageView } from 'analytics';
 // Load DM Sans typeface
 import 'typeface-dm-sans';
-import { Analytics } from '@vercel/analytics/react';
 
 // Load other package css file
 import 'react-multi-carousel/lib/styles.css';
@@ -17,5 +16,5 @@ export default function CustomApp({ Component, pageProps }) {
     Router.events.on('routeChangeComplete', logPageView);
   }, []);
 
-  return (<><Component {...pageProps} /><Analytics /></>);
+  return <Component {...pageProps} />;
 }

@@ -1360,6 +1360,13 @@
   "resolved" "https://registry.npmjs.org/@types/q/-/q-1.5.5.tgz"
   "version" "1.5.5"
 
+"@vercel/analytics@^1.1.1":
+  "integrity" "sha512-+NqgNmSabg3IFfxYhrWCfB/H+RCUOCR5ExRudNG2+pcRehq628DJB5e1u1xqwpLtn4pAYii4D98w7kofORAGQA=="
+  "resolved" "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.1.1.tgz"
+  "version" "1.1.1"
+  dependencies:
+    "server-only" "^0.0.1"
+
 "@webassemblyjs/ast@1.9.0":
   "integrity" "sha512-C6wW5L+b7ogSDVqymbkkvuW9kruN//YisMED04xzeBBqjHa2FYnmvOlS6Xj68xWQRgWvI9cIglsjFowH/RJyEA=="
   "resolved" "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.9.0.tgz"
@@ -6585,6 +6592,11 @@
   "version" "4.0.0"
   dependencies:
     "randombytes" "^2.1.0"
+
+"server-only@^0.0.1":
+  "integrity" "sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA=="
+  "resolved" "https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz"
+  "version" "0.0.1"
 
 "set-value@^2.0.0", "set-value@^2.0.1":
   "integrity" "sha512-JxHc1weCN68wRY0fhCoXpyK55m/XPHafOmK4UWD7m2CI14GMcFypt4w/0+NV5f/ZMby2F6S2wwA7fgynh9gWSw=="
